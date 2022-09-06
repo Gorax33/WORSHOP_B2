@@ -1,0 +1,40 @@
+
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    
+}  
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}    
+.card {
+    width: calc(300px - 40px);
+    height: 400px;
+    padding: 20px;
+    background: red;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+button{
+    background-color: transparent !important;
+    border: none;
+    color: none;
+    
+}
+.logo{
+    width: 4%;
+}
+
+header{
+    
+    
+}
+
